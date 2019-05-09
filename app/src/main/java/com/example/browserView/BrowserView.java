@@ -25,7 +25,7 @@ public class BrowserView extends AppCompatActivity {
 
         // Get a handle to our two UI controls
         urlText = (EditText) findViewById(R.id.url_field);
-        urlText.setText("http://www.android.com");
+        urlText.setText("https://www.android.com");
         goButton = (Button) findViewById(R.id.go_button);
 
         // Setup event handlers to tell Android to open the browser:
